@@ -1,9 +1,9 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ja">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>NoneToken DApp</title>
+    <title>NoneToken DApp - Shiba帝国</title>
     <link rel="icon" type="image/png" href="images/none.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <style>
@@ -291,47 +291,47 @@
         <div class="header-content">
             <h1 id="title">NoneToken DApp</h1>
             <div class="profile-section">
-                <img class="avatar" id="userAvatar" src="images/default-avatar.png" alt="Avatar">
-                <span class="nickname" id="userNickname">Woof Wallet</span>
+                <img class="avatar" id="userAvatar" src="images/default-avatar.png" alt="アバター">
+                <span class="nickname" id="userNickname">Woofウォレット</span>
                 <img class="v-icon" id="vIcon" src="" alt="" style="display: none;">
             </div>
             <div class="miner-gif"></div>
             <div class="miner-prompt" id="minerPrompt"></div>
-            <div class="reward-none" id="rewardNone" onclick="claimReferralReward()">Reward: 0 NONE</div>
+            <div class="reward-none" id="rewardNone" onclick="claimReferralReward()">報酬: 0 NONE</div>
         </div>
     </div>
     <div class="container">
         <div class="section">
-            <div class="section-title" id="connectTitle">Connect Wallet</div>
+            <div class="section-title" id="connectTitle">ウォレットを接続</div>
             <div class="button-group">
-                <button id="connectButton">Connect MetaMask</button>
+                <button id="connectButton">MetaMaskを接続</button>
             </div>
-            <div class="info-panel">Wallet: <span id="walletAddress">Not connected</span></div>
+            <div class="info-panel">ウォレット: <span id="walletAddress">未接続</span></div>
         </div>
         <div class="section" id="joinSection">
-            <div class="section-title" id="joinTitle">Join Network</div>
+            <div class="section-title" id="joinTitle">ネットワークに参加</div>
             <div class="button-group">
-                <button id="joinWithReferrerButton">Join (10 BONE)</button>
+                <button id="joinWithReferrerButton">参加 (10 BONE)</button>
             </div>
             <div class="input-group">
-                <input type="text" id="referrerInput" placeholder="Referrer Address">
+                <input type="text" id="referrerInput" placeholder="紹介者アドレス">
             </div>
         </div>
         <div class="section" id="nodeSection">
-            <div class="section-title" id="nodeTitle">Become a Node</div>
+            <div class="section-title" id="nodeTitle">ノードになる</div>
             <div class="button-group" id="nodeButtonGroup">
-                <button id="becomeNodeButton">Node (1000 BONE)</button>
+                <button id="becomeNodeButton">ノード (1000 BONE)</button>
             </div>
         </div>
         <div class="section">
-            <div class="section-title" id="stakeTitle">Stake NONE</div>
+            <div class="section-title" id="stakeTitle">NONEをステーク</div>
             <div class="button-group">
-                <button id="stakeButton">Stake</button>
-                <button id="withdrawStakeButton">Withdraw</button>
+                <button id="stakeButton">ステーク</button>
+                <button id="withdrawStakeButton">引き出し</button>
             </div>
             <div class="input-group">
-                <input type="text" id="nodeIdInput" placeholder="Node ID (1-2100)">
-                <input type="text" id="stakeAmountInput" placeholder="Amount (Min 10000 NONE)">
+                <input type="text" id="nodeIdInput" placeholder="ノードID (1-2100)">
+                <input type="text" id="stakeAmountInput" placeholder="数量 (最低 10000 NONE)">
             </div>
             <div class="percentage-buttons">
                 <button class="percentage-btn" onclick="setStakePercentage(25)">25%</button>
@@ -339,10 +339,10 @@
                 <button class="percentage-btn" onclick="setStakePercentage(75)">75%</button>
                 <button class="percentage-btn" onclick="setStakePercentage(100)">100%</button>
             </div>
-            <div class="info-panel" id="myStakes">My Stakes: None</div>
+            <div class="info-panel" id="myStakes">私のステーク: なし</div>
         </div>
     </div>
-    <footer id="footer">Powered by Shibarium © 2025</footer>
+    <footer id="footer">Shibarium提供 © 2025</footer>
     <div id="modal" class="modal">
         <div class="modal-content">
             <p id="modalMessage"></p>
@@ -378,25 +378,25 @@
         ];
 
         const prompts = [
-            "⛏️ Miner, ready your pickaxe! Let's dig some NONE!",
-            "💎 Found any NONE yet? Keep mining, champ!",
-            "⚡ Power up your rig! NONE awaits you!",
-            "🚀 Blast off to the NONE mines! Go go go!",
-            "🔥 Hot streak! Dig deeper for more NONE!",
-            "💰 Jackpot time! Stake more to win big!",
-            "⛏️ Swing that pickaxe! NONE is calling!",
-            "🌟 Shine bright, miner! NONE is your gem!",
-            "⚙️ Gear up! The NONE mines are open!",
-            "🎉 Party in the mines! Dig for NONE now!"
+            "⛏️ マイナー、ピックアックスを準備！NONEを掘りましょう！",
+            "💎 NONEは見つかりましたか？もっと掘って、チャンピオン！",
+            "⚡ 装置を起動！NONEがあなたを待っています！",
+            "🚀 NONE鉱山へ発進！急げ急げ！",
+            "🔥 ホットストリーク！もっと深く掘ってNONEをゲット！",
+            "💰 ジャックポットタイム！もっとステークして大勝利！",
+            "⛏️ ピックアックスを振って！NONEが呼んでいます！",
+            "🌟 輝け、マイナー！NONEはあなたの宝石です！",
+            "⚙️ 装備を整えて！NONE鉱山がオープンしました！",
+            "🎉 鉱山でパーティー！今すぐNONEを掘りましょう！"
         ];
         let promptIndex = 0;
 
         const claimMessages = [
-            "Hey miner! Invite a buddy to join the NONE party and claim this loot! 🚀",
-            "Your NONE is waiting! Call a friend to the mines and snag it! ⛏️",
-            "Whoa, free NONE! Get a pal to join and it’s yours, digger! 💎",
-            "Jackpot alert! Bring a friend aboard to unlock this NONE treasure! 💰",
-            "More miners, more NONE! Invite someone and grab your reward! ⚡"
+            "ねえ、マイナー！友達をNONEパーティーに招待して、この報酬をゲット！🚀",
+            "あなたのNONEが待っています！友達を鉱山に呼んで手に入れて！⛏️",
+            "おお、無料のNONE！仲間を連れてきて、それがあなたのものに、マイナー！💎",
+            "ジャックポットアラート！友達を連れてきて、このNONEの宝をアンロック！💰",
+            "もっとマイナー、もっとNONE！誰かを招待して報酬をゲット！⚡"
         ];
 
         async function testImageLoad(url) {
@@ -424,21 +424,21 @@
 
         async function updateRewardNone() {
             if (!web3 || !contract || !accounts) {
-                document.getElementById('rewardNone').innerText = 'Reward: 0 NONE';
+                document.getElementById('rewardNone').innerText = '報酬: 0 NONE';
                 return;
             }
             try {
                 const referralInfo = await contract.methods.getReferralInfo(accounts[0]).call();
                 const reward = web3.utils.fromWei(referralInfo[1], 'ether');
-                document.getElementById('rewardNone').innerText = `Reward: ${parseFloat(reward).toFixed(2)} NONE`;
+                document.getElementById('rewardNone').innerText = `報酬: ${parseFloat(reward).toFixed(2)} NONE`;
             } catch (error) {
-                document.getElementById('rewardNone').innerText = 'Reward: 0 NONE';
+                document.getElementById('rewardNone').innerText = '報酬: 0 NONE';
             }
         }
 
         async function updateUserInfo(address) {
             if (!web3 || !address) {
-                document.getElementById('userNickname').innerText = 'Woof Wallet';
+                document.getElementById('userNickname').innerText = 'Woofウォレット';
                 document.getElementById('userAvatar').src = 'images/default-avatar.png';
                 document.getElementById('vIcon').style.display = 'none';
                 return;
@@ -521,7 +521,7 @@
 
         async function updateMyStakes() {
             if (!web3 || !contract || !accounts) {
-                document.getElementById('myStakes').innerText = 'My Stakes: None';
+                document.getElementById('myStakes').innerText = '私のステーク: なし';
                 return;
             }
             try {
@@ -529,18 +529,18 @@
                 const amount = web3.utils.fromWei(stakeInfo[0], 'ether');
                 const nodeId = stakeInfo[1];
                 if (parseInt(amount) > 0) {
-                    document.getElementById('myStakes').innerText = `My Stakes: Node ${nodeId}: ${parseFloat(amount).toFixed(2)} NONE`;
+                    document.getElementById('myStakes').innerText = `私のステーク: ノード ${nodeId}: ${parseFloat(amount).toFixed(2)} NONE`;
                 } else {
-                    document.getElementById('myStakes').innerText = 'My Stakes: None';
+                    document.getElementById('myStakes').innerText = '私のステーク: なし';
                 }
             } catch (error) {
-                document.getElementById('myStakes').innerText = 'My Stakes: None';
+                document.getElementById('myStakes').innerText = '私のステーク: なし';
             }
         }
 
         function claimReferralReward() {
             if (!web3 || !contract || !accounts) {
-                showModal('Connect your wallet first, miner! 🔧');
+                showModal('まずウォレットを接続してください、マイナー！🔧');
                 return;
             }
             const randomMsg = claimMessages[Math.floor(Math.random() * claimMessages.length)];
@@ -555,14 +555,14 @@
             const connectButton = document.getElementById('connectButton');
             try {
                 if (!window.ethereum) {
-                    showModal('No wallet detected. Please install <a href="https://metamask.io" target="_blank">MetaMask</a> and run via a local server (e.g., "npx serve").');
+                    showModal('ウォレットが検出されません。<a href="https://metamask.io" target="_blank">MetaMask</a>をインストールし、ローカルサーバー（例: "npx serve"）で実行してください。');
                     return;
                 }
                 connectButton.classList.add('loading');
                 web3 = new Web3(window.ethereum);
                 accounts = await window.ethereum.request({ method: 'eth_requestAccounts' });
                 if (!accounts.length) {
-                    showModal('Please unlock your wallet or connect it.');
+                    showModal('ウォレットをアンロックまたは接続してください。');
                     return;
                 }
                 const chainId = await web3.eth.getChainId();
@@ -579,14 +579,14 @@
                                 params: [shibariumMainnet]
                             });
                         } else {
-                            showModal('Failed to switch network. Please add Shibarium manually.');
+                            showModal('ネットワークの切り替えに失敗しました。Shibariumを手動で追加してください。');
                             return;
                         }
                     }
                 }
                 document.getElementById('walletAddress').innerText = `${accounts[0].slice(0, 6)}...${accounts[0].slice(-4)}`;
                 contract = new web3.eth.Contract(contractABI, contractAddress);
-                showModal('Connected to Shibarium successfully! 🎉');
+                showModal('Shibariumに正常に接続しました！🎉');
                 updateNoneBalance();
                 updateJoinSection();
                 updateNodeSection();
@@ -594,7 +594,7 @@
                 updateUserInfo(accounts[0]);
                 updateMyStakes();
             } catch (error) {
-                showModal(`Connection failed: ${error.message}`);
+                showModal(`接続に失敗しました: ${error.message}`);
             } finally {
                 connectButton.classList.remove('loading');
             }
@@ -608,23 +608,23 @@
                 const joinSection = document.getElementById('joinSection');
                 if (hasPaidBone) {
                     joinSection.innerHTML = `
-                        <div class="section-title" id="joinTitle">Join Network</div>
-                        <div class="info-panel">You have already joined the network.</div>
+                        <div class="section-title" id="joinTitle">ネットワークに参加</div>
+                        <div class="info-panel">あなたはすでにネットワークに参加しています。</div>
                     `;
                 } else {
                     joinSection.innerHTML = `
-                        <div class="section-title" id="joinTitle">Join Network</div>
+                        <div class="section-title" id="joinTitle">ネットワークに参加</div>
                         <div class="button-group">
-                            <button id="joinWithReferrerButton">Join (10 BONE)</button>
+                            <button id="joinWithReferrerButton">参加 (10 BONE)</button>
                         </div>
                         <div class="input-group">
-                            <input type="text" id="referrerInput" placeholder="Referrer Address">
+                            <input type="text" id="referrerInput" placeholder="紹介者アドレス">
                         </div>
                     `;
                     document.getElementById('joinWithReferrerButton').addEventListener('click', joinWithReferrer);
                 }
             } catch (error) {
-                showModal(`Failed to check join status: ${error.message}`);
+                showModal(`参加状況の確認に失敗しました: ${error.message}`);
             }
         }
 
@@ -637,59 +637,59 @@
                 if (isNode) {
                     const nodeId = await contract.methods.getUserNodeId(accounts[0]).call();
                     nodeSection.innerHTML = `
-                        <div class="section-title" id="nodeTitle">Become a Node</div>
-                        <div class="info-panel">You are a node! Your Node ID: ${nodeId}</div>
+                        <div class="section-title" id="nodeTitle">ノードになる</div>
+                        <div class="info-panel">あなたはノードです！あなたのノードID: ${nodeId}</div>
                     `;
                 } else {
                     nodeSection.innerHTML = `
-                        <div class="section-title" id="nodeTitle">Become a Node</div>
+                        <div class="section-title" id="nodeTitle">ノードになる</div>
                         <div class="button-group" id="nodeButtonGroup">
-                            <button id="becomeNodeButton">Node (1000 BONE)</button>
+                            <button id="becomeNodeButton">ノード (1000 BONE)</button>
                         </div>
-                        <div class="info-panel">You are not a node yet!</div>
+                        <div class="info-panel">あなたはまだノードではありません！</div>
                     `;
                     document.getElementById('becomeNodeButton').addEventListener('click', becomeNode);
                 }
             } catch (error) {
-                showModal(`Failed to check node status: ${error.message}`);
+                showModal(`ノード状況の確認に失敗しました: ${error.message}`);
             }
         }
 
         async function joinWithReferrer() {
             if (!web3 || !contract || !accounts) {
-                showModal('Please connect your wallet first! 🔧');
+                showModal('まずウォレットを接続してください！🔧');
                 return;
             }
             const referrer = document.getElementById("referrerInput").value;
             if (!referrer) {
-                showModal('Referrer address is required!');
+                showModal('紹介者アドレスが必要です！');
                 return;
             }
             try {
-                showModal('Joining network with 10 BONE... 💎');
+                showModal('10 BONEでネットワークに参加中... 💎');
                 await contract.methods.joinWithReferrer(referrer).send({ from: accounts[0], value: web3.utils.toWei("10", "ether") });
-                showModal('Joined successfully! Start mining! 🚀');
+                showModal('参加成功！マイニングを開始しましょう！🚀');
                 updateNoneBalance();
                 updateJoinSection();
                 updateNodeSection();
             } catch (error) {
-                showModal('Join failed: ' + error.message);
+                showModal('参加に失敗しました: ' + error.message);
             }
         }
 
         async function becomeNode() {
             if (!web3 || !contract || !accounts) {
-                showModal('Please connect your wallet first! 🔧');
+                showModal('まずウォレットを接続してください！🔧');
                 return;
             }
             try {
-                showModal('Upgrading to node with 1000 BONE... ⚙️');
+                showModal('1000 BONEでノードにアップグレード中... ⚙️');
                 await contract.methods.becomeNode().send({ from: accounts[0], value: web3.utils.toWei("1000", "ether") });
-                showModal('Upgraded to node! You\'re a mining boss! 🎉');
+                showModal('ノードへのアップグレードが成功しました！あなたはマイニングのボスです！🎉');
                 updateNodeSection();
                 updateNoneBalance();
             } catch (error) {
-                showModal('Node upgrade failed: ' + error.message);
+                showModal('ノードへのアップグレードに失敗しました: ' + error.message);
             }
         }
 
@@ -701,7 +701,7 @@
 
         function setStakePercentage(percentage) {
             if (!web3 || !contract || !accounts) {
-                showModal('Please connect your wallet first! 🔧');
+                showModal('まずウォレットを接続してください！🔧');
                 return;
             }
             updateNoneBalance().then(() => {
@@ -720,35 +720,35 @@
 
         async function stakeToNode() {
             if (!web3 || !contract || !accounts) {
-                showModal('Please connect your wallet first! 🔧');
+                showModal('まずウォレットを接続してください！🔧');
                 return;
             }
             const nodeId = document.getElementById("nodeIdInput").value;
             const amount = document.getElementById("stakeAmountInput").value;
             try {
-                showModal(`Staking ${amount} NONE to Node ${nodeId}... ⛏️`);
+                showModal(`${amount} NONEをノード ${nodeId} にステーク中... ⛏️`);
                 await contract.methods.stakeToNode(nodeId, web3.utils.toWei(amount, "ether")).send({ from: accounts[0] });
-                showModal(`Staked ${amount} NONE to Node ${nodeId}! 💰`);
+                showModal(`${amount} NONEをノード ${nodeId} にステークしました！💰`);
                 updateNoneBalance();
                 updateMyStakes();
             } catch (error) {
-                showModal('Staking failed: ' + error.message);
+                showModal('ステークに失敗しました: ' + error.message);
             }
         }
 
         async function withdrawStake() {
             if (!web3 || !contract || !accounts) {
-                showModal('Please connect your wallet first! 🔧');
+                showModal('まずウォレットを接続してください！🔧');
                 return;
             }
             try {
-                showModal('Withdrawing your stake... 💸');
+                showModal('ステークを引き出し中... 💸');
                 await contract.methods.withdrawStake().send({ from: accounts[0] });
-                showModal('Stake withdrawn with rewards! 🎊');
+                showModal('ステークと報酬を引き出しました！🎊');
                 updateNoneBalance();
                 updateMyStakes();
             } catch (error) {
-                showModal('Withdrawal failed: ' + error.message);
+                showModal('引き出しに失敗しました: ' + error.message);
             }
         }
 
@@ -760,11 +760,11 @@
 
         window.ethereum?.on('chainChanged', (chainId) => {
             if (parseInt(chainId, 16) !== 109) {
-                showModal('Switched to wrong network. Please reconnect to Shibarium.');
+                showModal('間違ったネットワークに切り替えました。Shibariumに再接続してください。');
                 web3 = null;
                 contract = null;
                 accounts = null;
-                document.getElementById('walletAddress').innerText = 'Not connected';
+                document.getElementById('walletAddress').innerText = '未接続';
             } else {
                 connectWallet();
             }
@@ -774,19 +774,19 @@
             if (newAccounts.length) {
                 connectWallet();
             } else {
-                showModal('Wallet disconnected. Please reconnect.');
+                showModal('ウォレットが切断されました。再接続してください。');
                 web3 = null;
                 contract = null;
                 accounts = null;
-                document.getElementById('walletAddress').innerText = 'Not connected';
+                document.getElementById('walletAddress').innerText = '未接続';
             }
         });
 
         window.addEventListener('load', () => {
             if (!window.location.protocol.startsWith('http')) {
-                showModal('Please run this page via a local server (e.g., "npx serve") to connect MetaMask.');
+                showModal('このページをローカルサーバー（例: "npx serve"）で実行して、MetaMaskに接続してください。');
             } else if (!window.ethereum) {
-                showModal('No wallet detected. Please install <a href="https://metamask.io" target="_blank">MetaMask</a>.');
+                showModal('ウォレットが検出されません。<a href="https://metamask.io" target="_blank">MetaMask</a>をインストールしてください。');
             }
         });
     </script>
